@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Cod3r"
+    }
+  },
+  "defaultProject": "Cod3r",
+  "cli": {
+    "analytics": "dc846752-a51d-4412-94c9-7a525e29bae9"
+  }
 }
