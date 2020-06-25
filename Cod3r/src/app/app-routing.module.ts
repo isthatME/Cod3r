@@ -7,9 +7,9 @@ import { CoursesComponent } from './courses/courses.component';
 
 const routes: Routes = [
   { path:'', component: HomeComponent },
-  { path:'home', component: HomeComponent },
-  // { path:'/login', component: LoginComponent },
-  // { path:'/courses', component: CoursesComponent }
+  { path:'home', pathMatch:'full', component: HomeComponent },
+  { path:'login', pathMatch:'full', component: LoginComponent },
+  { path:'courses', pathMatch:'full', component: CoursesComponent }
 ];
 
 @NgModule({
