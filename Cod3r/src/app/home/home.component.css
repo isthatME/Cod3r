@@ -1,45 +1,25 @@
-body{
-    box-sizing: border-box;
+
+.main {
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/DWr0zrBLRvuMXzC7a35Q_designer-at-work-PP4VS27%20pbcopy.jpg');
+    height: 54vh;
 }
-
-/* header */
-
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: bolder;
+}
 header {
-    background: black;
-    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.4);
-    height: 16vh;
-    width: 100%;
+    color: white;
+}
+.article-content {
     display: flex;
-    justify-content: space-around;
+    width: 60vw;
+    padding: 20vh 10vw;
 }
-.header-container {
-    background: rgba(5, 0, 0, 0.5);
+article {
+    display: block;
+    font-weight: 1000;
 }
-nav {
-    display: flex;    
-}
-.nav-links {
-   margin-top: 5.5vh; 
-}
-.logo-img {
-    margin-top: 5.5vh;
-    width: 15vw;
-    height: 5vh;
-}
-nav li {
-    display: inline-block;
-    margin: 0 1.5vw;
-}
-li a:hover:not(.active) {
-   color: white;
-   }
-li a.active {
-    color: rgb(172, 172, 172);
-}
-nav a {
-    text-decoration: none;
-    color: #eee;
-    font-family: 'Abel', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-}
+
