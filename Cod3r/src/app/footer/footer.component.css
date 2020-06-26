@@ -1,0 +1,41 @@
+footer {
+    background-color: #171717;
+    color: #eee;
+    height: 20vh;
+}
+li {
+    list-style-type: none;
+    margin-right: 1rem;
+    margin-left: 0;
+    display: inline-block;
+}
+a{
+    color: white;
+}
+ul {
+    padding-inline-start: 0;
+}
+p {
+    padding: 0px 20px;
+}
+.content {
+    display: block;
+    padding: 24px;
+    margin-left: 2vw;
+}
+.header-shortcut {
+    display: flex;
+    justify-content: space-between;
+}
+.sc-header {
+    text-align: left;
+    margin: 20px 20px 8px 20px;
+
+}
+.sc-social-media {
+    text-align: right;
+    margin: 20px 20px 8px 20px;
+    font-size: 1.3rem;
+}
+
+

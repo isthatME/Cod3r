@@ -1,7 +1,8 @@
-
+/* subheader content */
 .main {
     top: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/DWr0zrBLRvuMXzC7a35Q_designer-at-work-PP4VS27%20pbcopy.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/UdRtaXNOS5Kq6uXQrXuR_woman-hands-working-on-laptop-PQYJ9WK.jpg');
+    background-position: 20px;
     height: 62vh;
 }
 h2 {
@@ -50,5 +51,9 @@ button {
     border: rgb(216, 216, 216) 2px solid;
     cursor: pointer;
 }
+
+/* cod3r overview */
+
+
 
 

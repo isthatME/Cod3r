@@ -3,7 +3,7 @@
 header {
     background: black;
     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.4);
-    height: 16vh;
+    height: 14vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -14,10 +14,10 @@ nav {
     display: flex;    
 }
 .nav-links {
-   margin-top: 5.5vh; 
+   margin-top: 4.5vh; 
 }
 .logo-img {
-    margin-top: 5.5vh;
+    margin-top: 4.5vh;
     width: 15vw;
     height: 5vh;
 }
