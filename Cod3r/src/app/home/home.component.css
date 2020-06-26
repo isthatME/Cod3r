@@ -2,7 +2,7 @@
 .main {
     top: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/DWr0zrBLRvuMXzC7a35Q_designer-at-work-PP4VS27%20pbcopy.jpg');
-    height: 54vh;
+    height: 62vh;
 }
 h2 {
     margin: 0;
@@ -16,10 +16,39 @@ header {
 .article-content {
     display: flex;
     width: 60vw;
-    padding: 20vh 10vw;
+    padding: 10vh 10vw;
 }
 article {
     display: block;
     font-weight: 1000;
 }
+button {
+    margin: 10px;
+    border-radius: 100px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color:rgb(216, 216, 216);
+    /* color: white; */
+}
+.new-course {
+    background-color: red;
+    border: red 2px solid;
+}
+.sub-plan {
+    background-color: transparent;
+    border: rgb(216, 216, 216) 2px solid;
+}
+.new-course:hover {
+    background-color: rgb(134, 3, 3);
+    border: rgb(134, 3, 3) 2px solid;
+    color: white;
+    cursor: pointer;
+}
+.sub-plan:hover {
+    background-color: #eee;
+    color: black;
+    border: rgb(216, 216, 216) 2px solid;
+    cursor: pointer;
+}
+
 
