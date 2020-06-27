@@ -61,6 +61,9 @@ button {
     flex-wrap: wrap;
     justify-content: center;
 }
+.desc-items {
+    padding-bottom: 8vh;
+}
 ul > div {
     margin: 1vh 2.2vw;
 }
@@ -95,9 +98,11 @@ ul > div {
     justify-content: center;
     font-size: 2rem;
     font-weight: bolder;
+    padding: 7vh 0px; 
 }
 .course-title {
     font-size: 15px;
+    margin: 2vh 0vw;
 }
 .cards-content {
     flex-direction: row;
@@ -115,6 +120,7 @@ ul > div {
 }
 .desc-course > h2 {
     font-size: 17px;
+    margin-bottom: 3vh;
 }
 .desc-course {
    text-align: center;
@@ -145,4 +151,12 @@ ul > div {
     box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* second desc */
 
+.second-main {
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/Wx6k0bb4T0GUr4fYUuwf_young-designer-P8YCPEF%20copy.jpg');
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
