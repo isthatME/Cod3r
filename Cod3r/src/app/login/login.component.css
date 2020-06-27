@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+/* form itself */
+header {
+    margin: 0 3vw;
+    font-size: 22px;
+    margin-left: 8vw;
+    margin-bottom: 20px;
+}
+form > p{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+input {
+    width: 40vw;
+    padding: 10px;
+}
+
+/* forgot password, checkbox and button */
+.check-and-forgot {
+    display: inline-block;
+}
+.check-field > input {
+    margin: 0.4vh 0.5vw;
+    width: 1vw;
+}
+.forgot-field {
+    margin-left: 23.5vw;
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+}
+.check-field {
+    display: flex;
+    margin-top: 2vh;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+button {
+    background-color: red;
+    color: white;
+    border: red 1px solid;
+    border-radius: 100px;
+    margin-top: 2vh;
+    width: 8vw;
+    height: 5vh;
+    padding: 4px;
+}
+hr {
+    display: inline-flex;
+    margin-bottom: 0.5vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    width: 100px;
+}
+.footer-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+.icons {
+    display: block;
+    font-size: 3rem;
+    margin-top: 3vh;
+    margin-left: 32%;
+}
+.fa-linkedin {
+    color: #007bb5;
+    margin: 0vh 1vw;
+}
+.fa-facebook-square {
+    color: #3b5998;
+    margin: 0vh 1vw;
+}
+.fa-google-plus-square {
+    color:#db4437;
+    margin: 0vh 1vw;
+}
+.create-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+a {
+    color: black;
+}

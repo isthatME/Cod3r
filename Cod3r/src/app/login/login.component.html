@@ -1,2 +1,38 @@
 <app-navbar></app-navbar>
-<app-footer></app-footer>
+<div class="container">
+    <div class="form-content">
+        <header>
+            <h1>Bem vindo de volta!</h1>
+        </header>
+        <form [formGroup]="form" (click)="login(form)">
+            <p>E-mail</p>
+            <input type="email" formControlName="email" id="email" placeholder="Digite seu e-mail">
+            <p>Senha</p>
+            <input type="password" formControlName="password" id="password" placeholder="Digite sua senha">
+        </form>
+        <div class="check-and-forgot">
+            <div class="check-field">
+                <input type="checkbox" name="remember" id="">
+                <p>Lembrar de de mim</p>
+                <p class="forgot-field"><a>Esqueceu a senha?</a></p>
+            </div>
+            <div class="submit-btn">
+                <button>Entrar</button>
+            </div>
+        </div>
+        <div class="footer-items">
+            <div class="paragrap-footer">
+                <hr>OU ENTRE COM
+                <hr>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-google-plus-square"></i>
+        </div>
+        <div class="create-account">
+            <a href="">Criar uma nova conta</a>
+        </div>
+    </div>
+</div>
