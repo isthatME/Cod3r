@@ -9,6 +9,8 @@ import { CoursesComponent } from './courses/courses.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CursosListComponent } from './cursos-list/cursos-list.component';
 
 @NgModule({
   declarations: [
@@ -17,13 +19,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     CoursesComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CursosListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

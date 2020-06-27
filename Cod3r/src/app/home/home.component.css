@@ -51,6 +51,14 @@ button {
     border: rgb(216, 216, 216) 2px solid;
     cursor: pointer;
 }
+/* courses cards */
+.header-cards {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 7vh 0px; 
+}
 
 /* cod3r description */
 .cod3r-desc {
@@ -92,67 +100,7 @@ ul > div {
     font-weight: 700;
 }
 
-/* cod3rs cards */
-.header-cards {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bolder;
-    padding: 7vh 0px; 
-}
-.course-title {
-    font-size: 15px;
-    margin: 2vh 0vw;
-}
-.cards-content {
-    flex-direction: row;
-    width: 348px;
-    height: 395px;
-    margin: 18px;
-    background-color: rgb(250, 248, 248);
-    border-radius: 8px;
-    cursor: pointer;
-}
-.cards-content:hover {
-    transform: scale(1.05);
-    transition-duration: 0.3s;
-    box-shadow: 0 0 1em rgb(12, 12, 12, 0.2);
-}
-.desc-course > h2 {
-    font-size: 17px;
-    margin-bottom: 3vh;
-}
-.desc-course {
-   text-align: center;
-}
-.course-price {
-    font-weight: bolder;
-    padding-top: 60px;
-}
-.courses-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0px 7.708333333333333vw;
-}
-.img-card > img{
-    border-radius: 0px 0px 8px 8px;
-}
-.see-more-courses {
-    margin-left: 10vw;   
-}
-.see-more-courses > button {
-    color: white;
-    background-color: red; 
-    border: red 2px solid;
-    cursor: pointer;
-}
-.see-more-courses > button:hover {
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-}
-
 /* second desc */
-
 .second-main {
     top: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.8)),url('https://s3.amazonaws.com/thinkific-import/220759/Wx6k0bb4T0GUr4fYUuwf_young-designer-P8YCPEF%20copy.jpg');

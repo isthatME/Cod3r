@@ -1,0 +1,40 @@
+{
+    "cards": [
+        {
+            "id":0,
+            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
+            "price": "12 x R$39,00",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        },
+        {
+            "id":1,
+            "title": "JavaScript Funcional e Reativo - PENSE como um Desenvolvedor JavaScript [2020]",
+            "price": "R$51,99",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        },
+        {
+            "id":2,
+            "title": "Web Moderno com JavaScript 2020 COMPLETO + Projetos",
+            "price": "R$72,00",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        },
+        {
+            "id":3,
+            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
+            "price": "12 x R$39,00",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        },
+        {
+            "id":4,
+            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
+            "price": "12 x R$39,00",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        },
+        {
+            "id":5,
+            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
+            "price": "12 x R$39,00",
+            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+        }
+    ]
+}
