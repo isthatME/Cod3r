@@ -10,6 +10,7 @@ import { CoursesService } from './courses.service';
 export class CoursesComponent implements OnInit {
 
   courses: Course[];
+  coursess: string;
 
   constructor(private courseService: CoursesService) { }
 

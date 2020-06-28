@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CursosListComponent } from './cursos-list/cursos-list.component';
+import { FilterPipe } from './courses/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CursosListComponent } from './cursos-list/cursos-list.component';
     CoursesComponent,
     NavbarComponent,
     FooterComponent,
-    CursosListComponent
+    CursosListComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,

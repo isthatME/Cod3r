@@ -7,12 +7,12 @@
             <a href="">Todos os cursos</a>
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Buscar">
+            <input [(ngModel)]="coursess" type="text" placeholder="Buscar">
         </div>
     </div>
 </div>
 <section class="courses-cards">
-    <div class="cards-content" *ngFor="let course of courses">
+    <div class="cards-content" *ngFor="let course of courses | filter:coursess">
         <div class="desc-course">
             <p class="course-title">Todos os cursos</p>
             <h2>{{ course.title }}</h2>
