@@ -10,31 +10,31 @@
             "id":1,
             "title": "JavaScript Funcional e Reativo - PENSE como um Desenvolvedor JavaScript [2020]",
             "price": "R$51,99",
-            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/780/0051592190326.medium.png?1592190326"
         },
         {
             "id":2,
             "title": "Web Moderno com JavaScript 2020 COMPLETO + Projetos",
             "price": "R$72,00",
-            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/553/3471586010235.medium.jpg?1586010235"
         },
         {
             "id":3,
-            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
-            "price": "12 x R$39,00",
-            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+            "title": "Angular 9 - Essencial",
+            "price": "Grátis",
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/678/3951592023533.medium.png?1592023533"
         },
         {
             "id":4,
-            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
-            "price": "12 x R$39,00",
-            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+            "title": "Python 3: Curso Completo do Básico ao Avançado",
+            "price": "12 x R$48,99",
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
         },
         {
             "id":5,
-            "title": "Plano de Assinatura - Tenha Acesso a Todos os Cursos da Plataforma por 1 Ano",
-            "price": "12 x R$39,00",
-            "img": "https://s3.amazonaws.com/thinkific/bundles/bundle_card_image_000/031/714/1592404518.original.png?1592404518"
+            "title": "React Native: Desenvolva APPs Nativas para Android e iOS",
+            "price": "12 x R$52,99",
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
         }
     ]
 }

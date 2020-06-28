@@ -1,3 +1,27 @@
 <app-navbar></app-navbar>
-<app-cursos-list></app-cursos-list>
-<app-footer></app-footer>
+<div class="search-courses">
+    <header>Cursos</header>
+    <div class="free-paid-courses">
+        <div class="fp-content">
+            <a href="">Cursos gratuitos</a>
+            <a href="">Todos os cursos</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar">
+        </div>
+    </div>
+</div>
+<section class="courses-cards">
+    <div class="cards-content" *ngFor="let course of courses">
+        <div class="desc-course">
+            <p class="course-title">Todos os cursos</p>
+            <h2>{{ course.title }}</h2>
+            <p class="course-price">{{ course.price}}</p>
+        </div>
+        <div class="img-card">
+            <img src="{{ course.img }}"
+                alt="card-img" style="width: 100%;">
+        </div>
+    </div>   
+</section>
+<!-- <app-footer></app-footer> -->

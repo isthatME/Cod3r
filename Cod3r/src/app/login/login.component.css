@@ -24,6 +24,12 @@ input {
     border: none;
     background-color: #f5f5f5;
 }
+form > input:hover{
+    border: #2c2b2b 1px solid;
+}
+form > input:focus{
+    border: #2c2b2b 1px solid;
+}
 
 /* forgot password, checkbox and button */
 .check-and-forgot {
@@ -92,4 +98,5 @@ hr {
 }
 a {
     color: black;
+    text-decoration: underline;
 }

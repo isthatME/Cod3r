@@ -59,6 +59,18 @@ button {
     font-weight: bolder;
     padding: 7vh 0px; 
 }
+.see-more-courses {
+    margin-left: 10vw;   
+}
+.see-more-courses > button {
+    color: white;
+    background-color: red; 
+    border: red 2px solid;
+    cursor: pointer;
+}
+.see-more-courses > button:hover {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
 
 /* cod3r description */
 .cod3r-desc {
