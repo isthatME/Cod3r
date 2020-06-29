@@ -21,14 +21,12 @@ input {
     width: 40vw;
     padding: 15px;
     font-size: 1rem;
-    border: none;
+    border: white 1px solid;;
     background-color: #f5f5f5;
+    outline: none;
 }
-form > input:hover{
-    border: #2c2b2b 1px solid;
-}
-form > input:focus{
-    border: #2c2b2b 1px solid;
+form > input:hover, form > input:focus{
+    border: #d3d3d3 1px solid;
 }
 
 /* forgot password, checkbox and button */

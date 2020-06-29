@@ -32,14 +32,14 @@
             "id":4,
             "title": "Python 3: Curso Completo do Básico ao Avançado",
             "stack": "Pyton",
-            "price": "12 x R$48,99",
+            "price": "R$48,99",
             "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
         },
         {
             "id":5,
             "title": "React Native: Desenvolva APPs Nativas para Android e iOS",
             "stack":"React Native, JavaScript",
-            "price": "12 x R$52,99",
+            "price": "R$52,99",
             "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
         }
     ]
