@@ -58,6 +58,7 @@ button {
     width: 8vw;
     height: 5vh;
     padding: 4px;
+    cursor: pointer;
 }
 hr {
     display: inline-flex;

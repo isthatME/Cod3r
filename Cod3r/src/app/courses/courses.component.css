@@ -23,16 +23,9 @@ header {
 .fp-content > a:nth-child(2) {
     margin-left: 15px;
 }
-.search-bar > input{
-    width: 300px;
-    height: 40px;
-    outline: none;
-    border: white 1px solid;
-    border: none;
-    background-color: #f5f5f5;
-}
 .search-bar > input {
-    width: 20vw;
+    width: 23vw;
+    height: 6vh;
     padding: 15px;
     font-size: 1rem;
     border: white 1px solid;;
@@ -42,7 +35,6 @@ header {
 .search-bar > input:hover, .search-bar > input:focus {
     border: rgb(212, 212, 212) 1px solid;
 }
-
 
 /* cards */
 .course-title {

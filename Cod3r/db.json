@@ -41,6 +41,13 @@
             "stack":"React Native, JavaScript",
             "price": "R$52,99",
             "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
+        },
+        {
+            "id":5,
+            "title": "React Native: Desenvolva APPs Nativas para Android e iOS",
+            "stack":"React Native, JavaScript",
+            "price": "R$52,99",
+            "img": "https://s3.amazonaws.com/thinkific/courses/course_card_image_000/557/0631585223856.medium.jpg?1585223856"
         }
     ]
 }
